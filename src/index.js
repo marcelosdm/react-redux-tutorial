@@ -23,4 +23,4 @@ const stories = [
 ];
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App stories={stories} />, rootElement);
+ReactDOM.render(<App stories={stories} onArchive={() => {}} />, rootElement);
