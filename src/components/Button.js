@@ -1,3 +1,5 @@
+import React from "react";
+
 const ButtonInline = ({ onClick, type = "button", children }) => (
   <button type={type} classname="button-inline" onClick={onClick}>
     {children}
